@@ -1,0 +1,1183 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBF885011CA2C35B00519E5A /* FKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF885001CA2C35B00519E5A /* FKPerson.m */; };
+		CBF885031CA2C69800519E5A /* FKPersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF885021CA2C69800519E5A /* FKPersonTest.m */; };
+		CBF885111CA2CC2200519E5A /* FKDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF885101CA2CC2200519E5A /* FKDog.m */; };
+		CBF885131CA2CEFF00519E5A /* FKDogTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF885121CA2CEFF00519E5A /* FKDogTest.m */; };
+		CBF885211CA2CFDA00519E5A /* FKWolf.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF885201CA2CFDA00519E5A /* FKWolf.m */; };
+		CBF885231CA2D0D700519E5A /* FKWolfTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF885221CA2D0D700519E5A /* FKWolfTest.m */; };
+		CBF8852B1CA2D15E00519E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF8852A1CA2D15E00519E5A /* main.m */; };
+		CBF8853E1CA2D48700519E5A /* FKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF8853D1CA2D48700519E5A /* FKPerson.m */; };
+		CBF885401CA2D49900519E5A /* idTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF8853F1CA2D49900519E5A /* idTest.m */; };
+		CBF8854E1CA2D76000519E5A /* Varargs.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF8854D1CA2D76000519E5A /* Varargs.m */; };
+		CBF885501CA2DA9E00519E5A /* VarargsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF8854F1CA2DA9E00519E5A /* VarargsTest.m */; };
+		CBF885691CA2DDB700519E5A /* FKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF885681CA2DDB700519E5A /* FKUser.m */; };
+		CBF8856B1CA2DED500519E5A /* FKUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF8856A1CA2DED500519E5A /* FKUserTest.m */; };
+		CBF885791CA2E18800519E5A /* FKSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF885781CA2E18800519E5A /* FKSingleton.m */; };
+		CBF8857B1CA2E2D900519E5A /* FKSingletonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF8857A1CA2E2D900519E5A /* FKSingletonTest.m */; };
+		CBFB93431CA4199F009E9137 /* FKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB93421CA4199F009E9137 /* FKPerson.m */; };
+		CBFB93451CA41C71009E9137 /* FKPersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB93441CA41C71009E9137 /* FKPersonTest.m */; };
+		CBFB93531CA42C73009E9137 /* FKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB93521CA42C73009E9137 /* FKUser.m */; };
+		CBFB93551CA42C86009E9137 /* FKUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB93541CA42C86009E9137 /* FKUserTest.m */; };
+		CBFB93631CA434A6009E9137 /* FKBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB93621CA434A6009E9137 /* FKBook.m */; };
+		CBFB93651CA43580009E9137 /* FKBookTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB93641CA43580009E9137 /* FKBookTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBF884E81CA2C31D00519E5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBF884F61CA2C32C00519E5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBF885061CA2CC1300519E5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBF885161CA2CFC900519E5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBF885261CA2D15E00519E5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBF885331CA2D41200519E5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBF885431CA2D73C00519E5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBF8855E1CA2DDA600519E5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBF8856E1CA2E0C000519E5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBFB93381CA41981009E9137 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBFB93481CA42C60009E9137 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBFB93581CA43493009E9137 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CBF884EA1CA2C31E00519E5A /* myObjectiveCCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myObjectiveCCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF884F81CA2C32C00519E5A /* 01-FKPerson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-FKPerson"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF884FF1CA2C35B00519E5A /* FKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPerson.h; sourceTree = "<group>"; };
+		CBF885001CA2C35B00519E5A /* FKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPerson.m; sourceTree = "<group>"; };
+		CBF885021CA2C69800519E5A /* FKPersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPersonTest.m; sourceTree = "<group>"; };
+		CBF885081CA2CC1300519E5A /* 02-FKDog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-FKDog"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF8850F1CA2CC2200519E5A /* FKDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKDog.h; sourceTree = "<group>"; };
+		CBF885101CA2CC2200519E5A /* FKDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKDog.m; sourceTree = "<group>"; };
+		CBF885121CA2CEFF00519E5A /* FKDogTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKDogTest.m; sourceTree = "<group>"; };
+		CBF885181CA2CFC900519E5A /* 03-FKWolf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-FKWolf"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF8851F1CA2CFDA00519E5A /* FKWolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKWolf.h; sourceTree = "<group>"; };
+		CBF885201CA2CFDA00519E5A /* FKWolf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKWolf.m; sourceTree = "<group>"; };
+		CBF885221CA2D0D700519E5A /* FKWolfTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKWolfTest.m; sourceTree = "<group>"; };
+		CBF885281CA2D15E00519E5A /* 04-ReturnSelf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-ReturnSelf"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF8852A1CA2D15E00519E5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBF885351CA2D41200519E5A /* 05-idType */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-idType"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF8853C1CA2D48700519E5A /* FKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPerson.h; sourceTree = "<group>"; };
+		CBF8853D1CA2D48700519E5A /* FKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPerson.m; sourceTree = "<group>"; };
+		CBF8853F1CA2D49900519E5A /* idTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = idTest.m; sourceTree = "<group>"; };
+		CBF885451CA2D73C00519E5A /* 06-Varargs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-Varargs"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF8854C1CA2D76000519E5A /* Varargs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Varargs.h; sourceTree = "<group>"; };
+		CBF8854D1CA2D76000519E5A /* Varargs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Varargs.m; sourceTree = "<group>"; };
+		CBF8854F1CA2DA9E00519E5A /* VarargsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarargsTest.m; sourceTree = "<group>"; };
+		CBF885601CA2DDA600519E5A /* 07-FKUser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-FKUser"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF885671CA2DDB700519E5A /* FKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKUser.h; sourceTree = "<group>"; };
+		CBF885681CA2DDB700519E5A /* FKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKUser.m; sourceTree = "<group>"; };
+		CBF8856A1CA2DED500519E5A /* FKUserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKUserTest.m; sourceTree = "<group>"; };
+		CBF885701CA2E0C000519E5A /* 08-FKSingleton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08-FKSingleton"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF885771CA2E18800519E5A /* FKSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSingleton.h; sourceTree = "<group>"; };
+		CBF885781CA2E18800519E5A /* FKSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSingleton.m; sourceTree = "<group>"; };
+		CBF8857A1CA2E2D900519E5A /* FKSingletonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSingletonTest.m; sourceTree = "<group>"; };
+		CBFB933A1CA41981009E9137 /* 09-FKPerson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09-FKPerson"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFB93411CA4199F009E9137 /* FKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPerson.h; sourceTree = "<group>"; };
+		CBFB93421CA4199F009E9137 /* FKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPerson.m; sourceTree = "<group>"; };
+		CBFB93441CA41C71009E9137 /* FKPersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPersonTest.m; sourceTree = "<group>"; };
+		CBFB934A1CA42C60009E9137 /* 10-FKUser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-FKUser"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFB93511CA42C73009E9137 /* FKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKUser.h; sourceTree = "<group>"; };
+		CBFB93521CA42C73009E9137 /* FKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKUser.m; sourceTree = "<group>"; };
+		CBFB93541CA42C86009E9137 /* FKUserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKUserTest.m; sourceTree = "<group>"; };
+		CBFB935A1CA43493009E9137 /* 11-FKBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-FKBook"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFB93611CA434A6009E9137 /* FKBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKBook.h; sourceTree = "<group>"; };
+		CBFB93621CA434A6009E9137 /* FKBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKBook.m; sourceTree = "<group>"; };
+		CBFB93641CA43580009E9137 /* FKBookTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKBookTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF884E71CA2C31D00519E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF884F51CA2C32C00519E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885051CA2CC1300519E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885151CA2CFC900519E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885251CA2D15E00519E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885321CA2D41200519E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885421CA2D73C00519E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF8855D1CA2DDA600519E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF8856D1CA2E0C000519E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB93371CA41981009E9137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB93471CA42C60009E9137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB93571CA43493009E9137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBF884E11CA2C31D00519E5A = {
+			isa = PBXGroup;
+			children = (
+				CBF884F91CA2C32C00519E5A /* 01-FKPerson */,
+				CBF885091CA2CC1300519E5A /* 02-FKDog */,
+				CBF885191CA2CFC900519E5A /* 03-FKWolf */,
+				CBF885291CA2D15E00519E5A /* 04-ReturnSelf */,
+				CBF885361CA2D41200519E5A /* 05-idType */,
+				CBF885461CA2D73C00519E5A /* 06-Varargs */,
+				CBF885611CA2DDA600519E5A /* 07-FKUser */,
+				CBF885711CA2E0C000519E5A /* 08-FKSingleton */,
+				CBFB933B1CA41981009E9137 /* 09-FKPerson */,
+				CBFB934B1CA42C60009E9137 /* 10-FKUser */,
+				CBFB935B1CA43493009E9137 /* 11-FKBook */,
+				CBF884EB1CA2C31E00519E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF884EB1CA2C31E00519E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF884EA1CA2C31E00519E5A /* myObjectiveCCode */,
+				CBF884F81CA2C32C00519E5A /* 01-FKPerson */,
+				CBF885081CA2CC1300519E5A /* 02-FKDog */,
+				CBF885181CA2CFC900519E5A /* 03-FKWolf */,
+				CBF885281CA2D15E00519E5A /* 04-ReturnSelf */,
+				CBF885351CA2D41200519E5A /* 05-idType */,
+				CBF885451CA2D73C00519E5A /* 06-Varargs */,
+				CBF885601CA2DDA600519E5A /* 07-FKUser */,
+				CBF885701CA2E0C000519E5A /* 08-FKSingleton */,
+				CBFB933A1CA41981009E9137 /* 09-FKPerson */,
+				CBFB934A1CA42C60009E9137 /* 10-FKUser */,
+				CBFB935A1CA43493009E9137 /* 11-FKBook */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF884F91CA2C32C00519E5A /* 01-FKPerson */ = {
+			isa = PBXGroup;
+			children = (
+				CBF884FF1CA2C35B00519E5A /* FKPerson.h */,
+				CBF885001CA2C35B00519E5A /* FKPerson.m */,
+				CBF885021CA2C69800519E5A /* FKPersonTest.m */,
+			);
+			path = "01-FKPerson";
+			sourceTree = "<group>";
+		};
+		CBF885091CA2CC1300519E5A /* 02-FKDog */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8850F1CA2CC2200519E5A /* FKDog.h */,
+				CBF885101CA2CC2200519E5A /* FKDog.m */,
+				CBF885121CA2CEFF00519E5A /* FKDogTest.m */,
+			);
+			path = "02-FKDog";
+			sourceTree = "<group>";
+		};
+		CBF885191CA2CFC900519E5A /* 03-FKWolf */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8851F1CA2CFDA00519E5A /* FKWolf.h */,
+				CBF885201CA2CFDA00519E5A /* FKWolf.m */,
+				CBF885221CA2D0D700519E5A /* FKWolfTest.m */,
+			);
+			path = "03-FKWolf";
+			sourceTree = "<group>";
+		};
+		CBF885291CA2D15E00519E5A /* 04-ReturnSelf */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8852A1CA2D15E00519E5A /* main.m */,
+			);
+			path = "04-ReturnSelf";
+			sourceTree = "<group>";
+		};
+		CBF885361CA2D41200519E5A /* 05-idType */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8853C1CA2D48700519E5A /* FKPerson.h */,
+				CBF8853D1CA2D48700519E5A /* FKPerson.m */,
+				CBF8853F1CA2D49900519E5A /* idTest.m */,
+			);
+			path = "05-idType";
+			sourceTree = "<group>";
+		};
+		CBF885461CA2D73C00519E5A /* 06-Varargs */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8854C1CA2D76000519E5A /* Varargs.h */,
+				CBF8854D1CA2D76000519E5A /* Varargs.m */,
+				CBF8854F1CA2DA9E00519E5A /* VarargsTest.m */,
+			);
+			path = "06-Varargs";
+			sourceTree = "<group>";
+		};
+		CBF885611CA2DDA600519E5A /* 07-FKUser */ = {
+			isa = PBXGroup;
+			children = (
+				CBF885671CA2DDB700519E5A /* FKUser.h */,
+				CBF885681CA2DDB700519E5A /* FKUser.m */,
+				CBF8856A1CA2DED500519E5A /* FKUserTest.m */,
+			);
+			path = "07-FKUser";
+			sourceTree = "<group>";
+		};
+		CBF885711CA2E0C000519E5A /* 08-FKSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				CBF885771CA2E18800519E5A /* FKSingleton.h */,
+				CBF885781CA2E18800519E5A /* FKSingleton.m */,
+				CBF8857A1CA2E2D900519E5A /* FKSingletonTest.m */,
+			);
+			path = "08-FKSingleton";
+			sourceTree = "<group>";
+		};
+		CBFB933B1CA41981009E9137 /* 09-FKPerson */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB93411CA4199F009E9137 /* FKPerson.h */,
+				CBFB93421CA4199F009E9137 /* FKPerson.m */,
+				CBFB93441CA41C71009E9137 /* FKPersonTest.m */,
+			);
+			path = "09-FKPerson";
+			sourceTree = "<group>";
+		};
+		CBFB934B1CA42C60009E9137 /* 10-FKUser */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB93511CA42C73009E9137 /* FKUser.h */,
+				CBFB93521CA42C73009E9137 /* FKUser.m */,
+				CBFB93541CA42C86009E9137 /* FKUserTest.m */,
+			);
+			path = "10-FKUser";
+			sourceTree = "<group>";
+		};
+		CBFB935B1CA43493009E9137 /* 11-FKBook */ = {
+			isa = PBXGroup;
+			children = (
+				CBFB93611CA434A6009E9137 /* FKBook.h */,
+				CBFB93621CA434A6009E9137 /* FKBook.m */,
+				CBFB93641CA43580009E9137 /* FKBookTest.m */,
+			);
+			path = "11-FKBook";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF884E91CA2C31D00519E5A /* myObjectiveCCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF884F11CA2C31E00519E5A /* Build configuration list for PBXNativeTarget "myObjectiveCCode" */;
+			buildPhases = (
+				CBF884E61CA2C31D00519E5A /* Sources */,
+				CBF884E71CA2C31D00519E5A /* Frameworks */,
+				CBF884E81CA2C31D00519E5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myObjectiveCCode;
+			productName = myObjectiveCCode;
+			productReference = CBF884EA1CA2C31E00519E5A /* myObjectiveCCode */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBF884F71CA2C32C00519E5A /* 01-FKPerson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF884FC1CA2C32C00519E5A /* Build configuration list for PBXNativeTarget "01-FKPerson" */;
+			buildPhases = (
+				CBF884F41CA2C32C00519E5A /* Sources */,
+				CBF884F51CA2C32C00519E5A /* Frameworks */,
+				CBF884F61CA2C32C00519E5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-FKPerson";
+			productName = "01-FKPerson";
+			productReference = CBF884F81CA2C32C00519E5A /* 01-FKPerson */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBF885071CA2CC1300519E5A /* 02-FKDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF8850C1CA2CC1300519E5A /* Build configuration list for PBXNativeTarget "02-FKDog" */;
+			buildPhases = (
+				CBF885041CA2CC1300519E5A /* Sources */,
+				CBF885051CA2CC1300519E5A /* Frameworks */,
+				CBF885061CA2CC1300519E5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-FKDog";
+			productName = "02-FKDog";
+			productReference = CBF885081CA2CC1300519E5A /* 02-FKDog */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBF885171CA2CFC900519E5A /* 03-FKWolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF8851C1CA2CFC900519E5A /* Build configuration list for PBXNativeTarget "03-FKWolf" */;
+			buildPhases = (
+				CBF885141CA2CFC900519E5A /* Sources */,
+				CBF885151CA2CFC900519E5A /* Frameworks */,
+				CBF885161CA2CFC900519E5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-FKWolf";
+			productName = "03-FKWolf";
+			productReference = CBF885181CA2CFC900519E5A /* 03-FKWolf */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBF885271CA2D15E00519E5A /* 04-ReturnSelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF8852C1CA2D15E00519E5A /* Build configuration list for PBXNativeTarget "04-ReturnSelf" */;
+			buildPhases = (
+				CBF885241CA2D15E00519E5A /* Sources */,
+				CBF885251CA2D15E00519E5A /* Frameworks */,
+				CBF885261CA2D15E00519E5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-ReturnSelf";
+			productName = "04-ReturnSelf";
+			productReference = CBF885281CA2D15E00519E5A /* 04-ReturnSelf */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBF885341CA2D41200519E5A /* 05-idType */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF885391CA2D41200519E5A /* Build configuration list for PBXNativeTarget "05-idType" */;
+			buildPhases = (
+				CBF885311CA2D41200519E5A /* Sources */,
+				CBF885321CA2D41200519E5A /* Frameworks */,
+				CBF885331CA2D41200519E5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-idType";
+			productName = "05-idType";
+			productReference = CBF885351CA2D41200519E5A /* 05-idType */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBF885441CA2D73C00519E5A /* 06-Varargs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF885491CA2D73C00519E5A /* Build configuration list for PBXNativeTarget "06-Varargs" */;
+			buildPhases = (
+				CBF885411CA2D73C00519E5A /* Sources */,
+				CBF885421CA2D73C00519E5A /* Frameworks */,
+				CBF885431CA2D73C00519E5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-Varargs";
+			productName = "06-Varargs";
+			productReference = CBF885451CA2D73C00519E5A /* 06-Varargs */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBF8855F1CA2DDA600519E5A /* 07-FKUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF885641CA2DDA600519E5A /* Build configuration list for PBXNativeTarget "07-FKUser" */;
+			buildPhases = (
+				CBF8855C1CA2DDA600519E5A /* Sources */,
+				CBF8855D1CA2DDA600519E5A /* Frameworks */,
+				CBF8855E1CA2DDA600519E5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-FKUser";
+			productName = "07-FKUser";
+			productReference = CBF885601CA2DDA600519E5A /* 07-FKUser */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBF8856F1CA2E0C000519E5A /* 08-FKSingleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF885741CA2E0C000519E5A /* Build configuration list for PBXNativeTarget "08-FKSingleton" */;
+			buildPhases = (
+				CBF8856C1CA2E0C000519E5A /* Sources */,
+				CBF8856D1CA2E0C000519E5A /* Frameworks */,
+				CBF8856E1CA2E0C000519E5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-FKSingleton";
+			productName = "08-FKSingleton";
+			productReference = CBF885701CA2E0C000519E5A /* 08-FKSingleton */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBFB93391CA41981009E9137 /* 09-FKPerson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFB93401CA41981009E9137 /* Build configuration list for PBXNativeTarget "09-FKPerson" */;
+			buildPhases = (
+				CBFB93361CA41981009E9137 /* Sources */,
+				CBFB93371CA41981009E9137 /* Frameworks */,
+				CBFB93381CA41981009E9137 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09-FKPerson";
+			productName = "09-FKPerson";
+			productReference = CBFB933A1CA41981009E9137 /* 09-FKPerson */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBFB93491CA42C60009E9137 /* 10-FKUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFB934E1CA42C60009E9137 /* Build configuration list for PBXNativeTarget "10-FKUser" */;
+			buildPhases = (
+				CBFB93461CA42C60009E9137 /* Sources */,
+				CBFB93471CA42C60009E9137 /* Frameworks */,
+				CBFB93481CA42C60009E9137 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-FKUser";
+			productName = "10-FKUser";
+			productReference = CBFB934A1CA42C60009E9137 /* 10-FKUser */;
+			productType = "com.apple.product-type.tool";
+		};
+		CBFB93591CA43493009E9137 /* 11-FKBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFB93601CA43493009E9137 /* Build configuration list for PBXNativeTarget "11-FKBook" */;
+			buildPhases = (
+				CBFB93561CA43493009E9137 /* Sources */,
+				CBFB93571CA43493009E9137 /* Frameworks */,
+				CBFB93581CA43493009E9137 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11-FKBook";
+			productName = "11-FKBook";
+			productReference = CBFB935A1CA43493009E9137 /* 11-FKBook */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF884E21CA2C31D00519E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = VinsonLei;
+				TargetAttributes = {
+					CBF884E91CA2C31D00519E5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBF884F71CA2C32C00519E5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBF885071CA2CC1300519E5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBF885171CA2CFC900519E5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBF885271CA2D15E00519E5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBF885341CA2D41200519E5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBF885441CA2D73C00519E5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBF8855F1CA2DDA600519E5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBF8856F1CA2E0C000519E5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBFB93391CA41981009E9137 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBFB93491CA42C60009E9137 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CBFB93591CA43493009E9137 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CBF884E51CA2C31D00519E5A /* Build configuration list for PBXProject "myObjectiveCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBF884E11CA2C31D00519E5A;
+			productRefGroup = CBF884EB1CA2C31E00519E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF884E91CA2C31D00519E5A /* myObjectiveCCode */,
+				CBF884F71CA2C32C00519E5A /* 01-FKPerson */,
+				CBF885071CA2CC1300519E5A /* 02-FKDog */,
+				CBF885171CA2CFC900519E5A /* 03-FKWolf */,
+				CBF885271CA2D15E00519E5A /* 04-ReturnSelf */,
+				CBF885341CA2D41200519E5A /* 05-idType */,
+				CBF885441CA2D73C00519E5A /* 06-Varargs */,
+				CBF8855F1CA2DDA600519E5A /* 07-FKUser */,
+				CBF8856F1CA2E0C000519E5A /* 08-FKSingleton */,
+				CBFB93391CA41981009E9137 /* 09-FKPerson */,
+				CBFB93491CA42C60009E9137 /* 10-FKUser */,
+				CBFB93591CA43493009E9137 /* 11-FKBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF884E61CA2C31D00519E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF884F41CA2C32C00519E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF885011CA2C35B00519E5A /* FKPerson.m in Sources */,
+				CBF885031CA2C69800519E5A /* FKPersonTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885041CA2CC1300519E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF885111CA2CC2200519E5A /* FKDog.m in Sources */,
+				CBF885131CA2CEFF00519E5A /* FKDogTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885141CA2CFC900519E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF885231CA2D0D700519E5A /* FKWolfTest.m in Sources */,
+				CBF885211CA2CFDA00519E5A /* FKWolf.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885241CA2D15E00519E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF8852B1CA2D15E00519E5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885311CA2D41200519E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF885401CA2D49900519E5A /* idTest.m in Sources */,
+				CBF8853E1CA2D48700519E5A /* FKPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF885411CA2D73C00519E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF885501CA2DA9E00519E5A /* VarargsTest.m in Sources */,
+				CBF8854E1CA2D76000519E5A /* Varargs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF8855C1CA2DDA600519E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF885691CA2DDB700519E5A /* FKUser.m in Sources */,
+				CBF8856B1CA2DED500519E5A /* FKUserTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF8856C1CA2E0C000519E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF8857B1CA2E2D900519E5A /* FKSingletonTest.m in Sources */,
+				CBF885791CA2E18800519E5A /* FKSingleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB93361CA41981009E9137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB93431CA4199F009E9137 /* FKPerson.m in Sources */,
+				CBFB93451CA41C71009E9137 /* FKPersonTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB93461CA42C60009E9137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB93531CA42C73009E9137 /* FKUser.m in Sources */,
+				CBFB93551CA42C86009E9137 /* FKUserTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFB93561CA43493009E9137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFB93631CA434A6009E9137 /* FKBook.m in Sources */,
+				CBFB93651CA43580009E9137 /* FKBookTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBF884EF1CA2C31E00519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBF884F01CA2C31E00519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBF884F21CA2C31E00519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF884F31CA2C31E00519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF884FD1CA2C32C00519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF884FE1CA2C32C00519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF8850D1CA2CC1300519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF8850E1CA2CC1300519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF8851D1CA2CFC900519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF8851E1CA2CFC900519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF8852D1CA2D15E00519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF8852E1CA2D15E00519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF8853A1CA2D41200519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF8853B1CA2D41200519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF8854A1CA2D73C00519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF8854B1CA2D73C00519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF885651CA2DDA600519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF885661CA2DDA600519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF885751CA2E0C000519E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF885761CA2E0C000519E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBFB933E1CA41981009E9137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBFB933F1CA41981009E9137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBFB934F1CA42C60009E9137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBFB93501CA42C60009E9137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBFB935E1CA43493009E9137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBFB935F1CA43493009E9137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF884E51CA2C31D00519E5A /* Build configuration list for PBXProject "myObjectiveCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF884EF1CA2C31E00519E5A /* Debug */,
+				CBF884F01CA2C31E00519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF884F11CA2C31E00519E5A /* Build configuration list for PBXNativeTarget "myObjectiveCCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF884F21CA2C31E00519E5A /* Debug */,
+				CBF884F31CA2C31E00519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF884FC1CA2C32C00519E5A /* Build configuration list for PBXNativeTarget "01-FKPerson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF884FD1CA2C32C00519E5A /* Debug */,
+				CBF884FE1CA2C32C00519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF8850C1CA2CC1300519E5A /* Build configuration list for PBXNativeTarget "02-FKDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF8850D1CA2CC1300519E5A /* Debug */,
+				CBF8850E1CA2CC1300519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF8851C1CA2CFC900519E5A /* Build configuration list for PBXNativeTarget "03-FKWolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF8851D1CA2CFC900519E5A /* Debug */,
+				CBF8851E1CA2CFC900519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF8852C1CA2D15E00519E5A /* Build configuration list for PBXNativeTarget "04-ReturnSelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF8852D1CA2D15E00519E5A /* Debug */,
+				CBF8852E1CA2D15E00519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF885391CA2D41200519E5A /* Build configuration list for PBXNativeTarget "05-idType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF8853A1CA2D41200519E5A /* Debug */,
+				CBF8853B1CA2D41200519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF885491CA2D73C00519E5A /* Build configuration list for PBXNativeTarget "06-Varargs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF8854A1CA2D73C00519E5A /* Debug */,
+				CBF8854B1CA2D73C00519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF885641CA2DDA600519E5A /* Build configuration list for PBXNativeTarget "07-FKUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF885651CA2DDA600519E5A /* Debug */,
+				CBF885661CA2DDA600519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF885741CA2E0C000519E5A /* Build configuration list for PBXNativeTarget "08-FKSingleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF885751CA2E0C000519E5A /* Debug */,
+				CBF885761CA2E0C000519E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFB93401CA41981009E9137 /* Build configuration list for PBXNativeTarget "09-FKPerson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFB933E1CA41981009E9137 /* Debug */,
+				CBFB933F1CA41981009E9137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFB934E1CA42C60009E9137 /* Build configuration list for PBXNativeTarget "10-FKUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFB934F1CA42C60009E9137 /* Debug */,
+				CBFB93501CA42C60009E9137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFB93601CA43493009E9137 /* Build configuration list for PBXNativeTarget "11-FKBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFB935E1CA43493009E9137 /* Debug */,
+				CBFB935F1CA43493009E9137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF884E21CA2C31D00519E5A /* Project object */;
+}
